@@ -56,5 +56,8 @@ due before tomorrow
 			tp.file.cursor_append(contexts[key])
 		})
 		tp.file.cursor_append(GTDDefaults["__Waiting For"])
+		const viewState = app.workspace.activeLeaf.getViewState()
+		viewState.state.mode = "preview"
+		app.workspace.activeLeaf.setViewState(viewState)
 	}, 200)
 %>
