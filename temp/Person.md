@@ -1,0 +1,4 @@
+---
+type: contactCard
+picture: "![[]]"
+---
